@@ -1,0 +1,104 @@
+:root{
+    --tipografia-facebook: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    --color-azul-facebook: rgb(23, 16, 225) ;
+    --color-verde-facebook: #42b72a ; 
+    --color-gris-fondo-facebook: #f0f2f5; 
+    --color-blanco: #ffffff;
+    --color-negro: #000;
+    --color-azul-facedbook-hover: #166fe5;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,170%);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    justify-self: end;
+    /* añadir grid-column-gap*/
+    grid-template-rows: auto auto auto;
+    grid-gap: 50px 210px;  
+}
+
+    .olvide-contraseña{
+    font-family: inherit;
+    color: #1877f2;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    width: 500px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    background: #fff;
+    font-size: 200px;
+    padding: 100px 200px 150px;
+    margin: 100px 0px 5px;
+}
+.btn-inicio-sesión{
+    width: 600px;
+    height: 52px;
+    background-color: var(--color-azul-facebook);
+    color: var(--color-blanco);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    border: none;
+    transition: all 200ms;
+}
+.btn-inicio-sesión{
+    background-color: var(--color-azul-facedbook-hover);
+}
+.crear-pagina{
+    font-family: inherit;
+    height: 456px;
+    width: 396px;
+    font-size: 12px;
+}
+.btn-crear-cuenta-nueva{
+    font-family: inherit;
+    padding-top: 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 10px 5px;
+    background-color:#42b72a;
+    color: #fff;
+}
+.seccion-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background: rgb(143, 7, 7);
+    font-size: 20px;
+    padding: 0px 0px 0px;
+    margin: 0px 0px 5px;
+}
+.listas{
+    color: #000;
+    font-family: inherit;
+    height: 456px;
+    width: 396px;
+    font-size: 12px;
+}
+
